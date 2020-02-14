@@ -1,0 +1,4 @@
+3 escolhas
+pedra > tesoura
+tesoura > papel
+papel > pedra

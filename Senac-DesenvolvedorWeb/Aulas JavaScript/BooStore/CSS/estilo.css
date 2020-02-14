@@ -1,0 +1,93 @@
+html, body{
+    height: 100%;
+ }
+
+body {
+    text-align:center;
+    background-image: linear-gradient(#cc3333 0%, #330033 100%);
+  }
+
+a, p{
+    color: white;
+}
+
+input[type=text] {
+    border: none;
+    background-color : #531212; 
+    border-radius: 10px;
+    position: relative;
+    width: 25%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.espaco{
+    margin-left: 10px;
+}
+.redes{
+    margin: 10px;
+}
+
+input[type=password] {
+    border: none;
+    background-color : #531212; 
+    border-radius: 10px;
+    position: relative;
+    width: 25%;
+    height: 50px;
+}
+
+input[type=text] {
+  border: none;
+  background-color : #531212; 
+  border-radius: 10px;
+  position: relative;
+  width: 25%;
+  height: 50px;
+}
+
+.cadastrese{
+    margin-bottom: 10px;
+}
+
+.login{
+    color: white;
+    border: none;
+    background-color : #990033; 
+    border-radius: 10px;
+    position: relative;
+    width: 25%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: inline-block;
+    position:relative;
+  }
+
+.recuperar{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+.separator {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+  }
+  .separator::before {
+    margin-right: .25em;
+  }
+  .separator::after {
+    margin-left: .25em;
+  }
